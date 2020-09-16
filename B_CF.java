@@ -43,7 +43,7 @@ public class B_CF{
         for(String date:dates.keySet()){
             // find the day Number by using Timohoki ALgo
             int dayNumber=findDayNumber(date);
-            System.out.println(date+"  "+dayNumber+"  "+dates.get(date));
+//             System.out.println(date+"  "+dayNumber+"  "+dates.get(date));
             // As algorithm consider sunday as number 0 so to consider sunday as 7
             if(dayNumber==0){
                 dayNumber=6;
@@ -81,7 +81,7 @@ public class B_CF{
         // return the Days value
         for(int i=0;i<7;i++){
             answerOfDaysValue.put(days[i],weakNumber[i]);
-            System.out.println(days[i]+" " +weakNumber[i]);
+//             System.out.println(days[i]+" " +weakNumber[i]);
         }
         return answerOfDaysValue;
         
